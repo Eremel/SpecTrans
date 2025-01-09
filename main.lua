@@ -63,7 +63,7 @@ AltTexture{
     key = 'joker',
     set = 'Joker',
     path = 'Jokers-TSpectrals.png',
-    keys = {'j_banner'},
+    keys = {'j_banner','j_seance'},
     original_sheet = true
 }
 
