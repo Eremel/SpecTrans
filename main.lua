@@ -7,6 +7,12 @@
 --- VERSION: 1.0.0
 --- DEPENDENCIES: [malverk]
 
+SMODS.Atlas({
+    key = "modicon",
+    path = "Tags-TSpectrals.png",
+    px = 34,
+    py = 34,
+})
 
 Malverk.badges.spectrans = function(self, card, badges)
     badges[#badges + 1] = create_badge(localize('k_spectrans'), get_type_colour(self or card.config, card), nil, 1.2)
@@ -43,7 +49,6 @@ AltTexture{
     key = 'tags',
     set = 'Tag',
     path = 'Tags-TSpectrals.png',
-    original_sheet = true,
     keys = {
         'tag_ethereal'
     },
